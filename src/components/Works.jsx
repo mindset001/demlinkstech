@@ -12,12 +12,12 @@ const Works = ({works}) => {
                     <h5 className="text-[#F68A44]">Our Works</h5>
                 </div>
             </div>
-            <div className="works w-full">
+            <div className="works">
                 {works.map((work, id)=>{
-                    return <div className="work flex md:flex-row flex-col w-full px-4">
+                    return <div className="work">
                         <div className="w-full" key={id} >
                             {work.title}
-                            <img src={work.src}  alt={work.alt}  className="w-full" />
+                            <img src={work.src}  alt={work.alt}  className="" />
                         </div>
                     </div>
                 })}

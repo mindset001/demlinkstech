@@ -10,3 +10,18 @@
 .work{
     width: 49%;
 }
+
+@media (max-width: 600px) {
+    .works{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+    
+    }
+    .work{
+        width: 80%;
+    }
+  }
