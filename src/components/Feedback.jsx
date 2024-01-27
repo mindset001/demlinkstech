@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import OpenQuotes from "../images/opening-quotes.png"
 import CloseQuotes from "../images/closing-quotes.png"
@@ -7,6 +9,7 @@ import FrontArrowBlack from "../images/black-next-arrow.png"
 import PrevArrow from "../images/back-arrow.png"
 
 import "../css/Feedback.css"
+// eslint-disable-next-line react/prop-types
 const Feedback = ({data}) => {
     const [slide, setSlide] = useState(0)
 

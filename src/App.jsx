@@ -2,9 +2,9 @@ import About from './components/About'
 import Feedback from './components/Feedback'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
-import Works from './components/Works'
+// import Works from './components/Works'
 import {Slides} from './data/db.json'
-import {Work} from './data/db.json'
+// import {Work} from './data/db.json'
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './css/App.css'
 import Footer from './components/Footer'
@@ -12,7 +12,7 @@ import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import Home from './components/Home'
 import * as THREE from 'three'
-import { OrbitControls } from '@react-three/drei'
+// import { OrbitControls } from '@react-three/drei'
 
 function App() {
 

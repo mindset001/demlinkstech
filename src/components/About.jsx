@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "../css/About.css"
 import  AboutImage  from "../images/about.png";
 import playImage from "../images/play.png"
