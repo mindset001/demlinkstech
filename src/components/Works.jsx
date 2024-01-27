@@ -1,7 +1,10 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable react/prop-types */
 import  "../css/Works.css";
+// import {Wo}
 const Works = ({works}) => {
     return ( 
-        <section className="bg-white rounded-3xl">
+        <section className="bg-white rounded-3xl w-full">
             <div className="flex py-8 px-6 gap-6 mb-[4rem] justify-between items-center flex-col-reverse" >
                 <h2 className="text-5xl tracking-wide text-black">Take a look at what we have done</h2>
                 <div className="flex justify-between items-center">
@@ -9,12 +12,12 @@ const Works = ({works}) => {
                     <h5 className="text-[#F68A44]">Our Works</h5>
                 </div>
             </div>
-            <div className="works">
+            <div className="works w-full">
                 {works.map((work, id)=>{
-                    return <div className="work">
-                        <div className="" key={id} >
+                    return <div className="work flex md:flex-row flex-col w-full px-4">
+                        <div className="w-full" key={id} >
                             {work.title}
-                            <img src={work.src}  alt={work.alt}   />
+                            <img src={work.src}  alt={work.alt}  className="w-full" />
                         </div>
                     </div>
                 })}

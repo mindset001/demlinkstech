@@ -8,38 +8,38 @@
         {
             "name": "BISOLA Olanrewaju",
             "body": "Lorem ipsum dolor sit amet consectetur abore explicabo unded aliquid dolores ratione nulla, alias quaerat numquam!.",
-            "position": "CEO at veejay groups"
+            "position": "CEO at Errandboi"
         },
         {
             "name": "Abdullahi OLAIYA",
             "body": "Temporibus assumenda libero modi officiis repellendus voluptatem, illo velit culpa labore explicabo unde, ab sed aliquid.",
-            "position": "Chairman at Viju foods"
+            "position": "Chairman at Akeem Olaniyan and Partners"
         }
     ],
     "Work":[
         {
             "title": "Mobile",
             "project": "Crowd Funding Application for FundX",
-            "src": "https://picsum.photos/seed/img7/600/400",
+            "src": "https://res.cloudinary.com/mindset/image/upload/v1706343633/bg1_lm9h9e.png",
             "alt": "mobile"
         },
         {
             "title": "Web",
             "project": "Company website for Boutrose",
-            "src":  "/images/card4.png",
+            "src":  "https://res.cloudinary.com/mindset/image/upload/v1706343633/bg2_re9hgs.png",
             "alt": "mobile1"
         },
         {
             "title": "Branding",
             "project": "Branding for Blink",
-            "src": "../images/bg3.png",
+            "src": "https://res.cloudinary.com/mindset/image/upload/v1706343633/bg3_gcailb.png",
             "alt": "mobile2"
 
         },
         {
             "title": "Mobile",
             "project": "Crowd Funding Application for FundX",
-            "src": "../images/bg4.png",
+            "src": "https://res.cloudinary.com/mindset/image/upload/v1706343633/bg6_qzcmjs.png",
             "alt": "mobile3"
 
 
@@ -47,14 +47,14 @@
         {
             "title": "Design",
             "project": "Crowd Funding Application for FundX",
-            "src": "../images/bg6.png",
+            "src": "https://res.cloudinary.com/mindset/image/upload/v1706343633/bg5_crpstl.png",
             "alt": "mobile4"
 
         },
         {
             "title": "Web",
             "project": "Crowd Funding Application for FundX",
-            "src": "../images/bg5.png",
+            "src": "https://res.cloudinary.com/mindset/image/upload/v1706343633/bg4_adocj4.png",
             "alt": "mobile5"
 
         }
