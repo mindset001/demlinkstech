@@ -1,0 +1,19 @@
+nav{
+    padding: 1rem 0 .5rem 0;
+    border-bottom: 1.5px solid #2E2E2D66;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+ul li{
+    /* margin-right: 1.5rem; */
+    cursor: pointer;
+}
+
+ div button{
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: linear-gradient(106.92deg, #F68A44 3.41%, #EC500B 132.99%);
+}

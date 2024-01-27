@@ -1,0 +1,22 @@
+.services{
+    background: url(../images/servicesBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.service h3{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.service p{
+    letter-spacing: 0.025rem;
+}
+
+.service{
+    border: 1px solid #ec4f0b59;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    background: #181818;
+}

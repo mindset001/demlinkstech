@@ -1,0 +1,62 @@
+{
+    "Slides":[
+        {
+            "name": "BISOLA OLAIYA",
+            "body": "They are proficient in designing world class website to suit your business and i love the taste and feel of my website.",
+            "position": "CEO at ChopBeta"
+        },
+        {
+            "name": "BISOLA Olanrewaju",
+            "body": "Lorem ipsum dolor sit amet consectetur abore explicabo unded aliquid dolores ratione nulla, alias quaerat numquam!.",
+            "position": "CEO at veejay groups"
+        },
+        {
+            "name": "Abdullahi OLAIYA",
+            "body": "Temporibus assumenda libero modi officiis repellendus voluptatem, illo velit culpa labore explicabo unde, ab sed aliquid.",
+            "position": "Chairman at Viju foods"
+        }
+    ],
+    "Work":[
+        {
+            "title": "Mobile",
+            "project": "Crowd Funding Application for FundX",
+            "src": "https://picsum.photos/seed/img7/600/400",
+            "alt": "mobile"
+        },
+        {
+            "title": "Web",
+            "project": "Company website for Boutrose",
+            "src":  "/images/card4.png",
+            "alt": "mobile1"
+        },
+        {
+            "title": "Branding",
+            "project": "Branding for Blink",
+            "src": "../images/bg3.png",
+            "alt": "mobile2"
+
+        },
+        {
+            "title": "Mobile",
+            "project": "Crowd Funding Application for FundX",
+            "src": "../images/bg4.png",
+            "alt": "mobile3"
+
+
+        },
+        {
+            "title": "Design",
+            "project": "Crowd Funding Application for FundX",
+            "src": "../images/bg6.png",
+            "alt": "mobile4"
+
+        },
+        {
+            "title": "Web",
+            "project": "Crowd Funding Application for FundX",
+            "src": "../images/bg5.png",
+            "alt": "mobile5"
+
+        }
+    ]
+}

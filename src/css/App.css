@@ -1,0 +1,18 @@
+.App{
+    background: #121212;
+    color: #DBDBDB;
+    height: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+#webgl {
+    height: 100vh !important;
+}
+
+/* h1,h2, h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+} */
+h2{
+    font-size: 3rem/* 48px */;
+    line-height: 1;
+}
