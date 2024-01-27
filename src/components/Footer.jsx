@@ -11,7 +11,7 @@ const Footer = () => {
                 </div>
                 <p className="md:w-[50%]">Demlinks technology is a creative digital agency that helps brands create, design and market their products and services.</p>
             </div>
-            <div>
+            <div className="mt-4">
                 <ul className=" flex gap-6 ">
                     <li> <a>Home</a> </li>
                     <li> <a>About us</a> </li>

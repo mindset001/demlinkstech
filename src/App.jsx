@@ -36,7 +36,7 @@ function App() {
       <div className='md:px-6 lg:px-12'>
         <About/>
         <Services/>
-        <Works works={Work}/>
+        {/* <Works works={Work}/> */}
         <Feedback data={Slides}/>
       </div>
       <Footer/>

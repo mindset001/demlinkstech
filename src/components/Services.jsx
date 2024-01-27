@@ -8,7 +8,7 @@ import XnO from "../images/xNo.png"
 
 const Services = () => {
     return ( 
-        <div className="pb-[2rem] pt-[8.5rem] mb-[5rem] relative">
+        <div className="pb-[2rem] pt-[8.5rem] mb-[5rem] relative px-4 md:px-0">
             <img src={XnO} alt="" className="absolute -left-12 top-0" />
             <div className="flex items-center mb-4">
                 <div className="mr-2  rounded-3xl w-12 h-[2px] bg-[#EC500B]"></div>
@@ -16,8 +16,8 @@ const Services = () => {
             </div>
             <h2 className="text-5xl">We provide different services</h2>
             <div className="services mt-8">
-                <div className=" mb-8 flex justify-between items-end">
-                    <div className="flex justify-between items-center w-[57%] service">
+                <div className=" mb-8 flex flex-col md:flex-row justify-between items-end">
+                    <div className="flex justify-between items-center w-full md:w-[57%] service">
                         <div className="w-[75%]">
                             <h3>Business branding</h3>
                             <p>We create visual identity and marketing materials for your company that sets it running and bring about high conversations</p>
@@ -26,7 +26,7 @@ const Services = () => {
                             <img src={Card1} alt="" />
                         </div>
                     </div>
-                    <div className="flex justify-between items-center w-[40%] service">
+                    <div className="flex  justify-between items-center w-full md:w-[40%] service">
                         <div className="w-[75%]">
                             <h3>UI/UX Design</h3>
                             <p >We create visual identity and marketing materials for your company that sets it running and bring about high conversations</p>
@@ -37,8 +37,8 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-between items-end">
-                    <div className="flex justify-between items-center w-[40%] service">
+                <div className="flex flex-col md:flex-row justify-between items-end">
+                    <div className="flex justify-between items-center w-full md:w-[40%] service">
                         <div className="w-[75%]">
                             <h3>Web & App Development</h3>
                             <p>We create visual identity and marketing materials for your company that sets it running and bring about high conversations</p>
@@ -47,7 +47,7 @@ const Services = () => {
                             <img src={Card3} alt="" />
                         </div>
                     </div>
-                    <div className="z-20 flex justify-between items-center w-[57%] service">
+                    <div className="z-20 flex justify-between items-center w-full md:w-[57%] service">
                         <div className="w-[75%]">
                             <h3>CCTV and Home automation </h3>
                             <p >We create visual identity and marketing materials for your company that sets it running and bring about high conversations</p>

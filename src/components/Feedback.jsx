@@ -17,9 +17,9 @@ const Feedback = ({data}) => {
         setSlide (slide === 0 ? data.length - 1 : slide-1)
     }
     return ( 
-        <section className="mb-12">
+        <section className="mt-4 mb-12">
             <div className="flex mb-[4rem] justify-between items-center">
-                <h2 className="text-5xl tracking-wide">This is what people say about Us</h2>
+                <h2 className="text-[24px] md:text-5xl tracking-wide">This is what people say about Us</h2>
                 <div className="flex justify-between items-center">
                     <div className="mr-2  rounded-3xl w-12 h-[2px] bg-[#EC500B]"></div>
                     <h5 className="text-[#F68A44]">Feedback</h5>
@@ -31,7 +31,7 @@ const Feedback = ({data}) => {
                     return <div key={id} className={slide === id ?  'carousel' : ' carousel carousel-hidden'}>
                         <div  className="mb-4 relative py-12">
                             <img className="absolute left-0 top-0" src={OpenQuotes} alt="OpenQuotes" />
-                            <p className="text-[28px] py-[.5rem] px-[2.5rem]">{item.body}</p>
+                            <p className="text-[14px] md:text-[28px] py-[.5rem] md:px-[2.5rem]">{item.body}</p>
                             <img className="absolute right-0 bottom-0" src={CloseQuotes} alt="CloseQuotes" />
 
                         </div>
@@ -46,7 +46,7 @@ const Feedback = ({data}) => {
             </div>
 
             <div className="contact">
-                <h2>Let's make something incredible together</h2>
+                <h2 className="">Let's make something incredible together</h2>
                 <p className="text-xl font-medium mb-12">Looking for a creative partner? Let's get started.</p>
                 <div className="btns flex justify-between items-center gap-8">
                     <button className=" bg-[#DA6529] text-[#121212] shadow-lg"> Leave us a Message <img src={FrontArrowBlack} alt="next-arrow" /></button>
