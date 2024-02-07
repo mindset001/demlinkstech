@@ -25,11 +25,11 @@ const Home = () => {
       <BoxParticle />
       <Html 
         fullscreen
-        className='pt-10 pointer-events-none'
+        className='pt-10 pointer-events-none mb-8'
        >
         <div>
         <p className='text-center text-[28px] font-[400]'>we are a</p>
-            <h1 className='text-center text-[80px] font-[600]'>Creative digital <span className="bg-gradient-to-r from-[#F68A44] to-[#EC500B] bg-clip-text text-transparent">agency</span> <br /> for mindful brands.</h1>
+            <h1 className='text-center text-[80px] font-[600] leading-[93px]'>Creative digital <span className="bg-gradient-to-r from-[#F68A44] to-[#EC500B] bg-clip-text text-transparent">agency</span> <br /> for mindful brands.</h1>
         {/* <div className='flex text-[54px] md:text-[80px] items-center justify-center gap-5'>
             <h1 className='text-center'>We Create,</h1>
             <img src={Left} alt='icon-arrow' className='hidden md:flex'/>
@@ -39,7 +39,7 @@ const Home = () => {
             <img src={Left} alt='icon-arrow' className='hidden md:flex'/>
             <h1 className="bg-gradient-to-r from-[#F68A44] to-[#EC500B] bg-clip-text text-transparent"><span>Build.</span></h1>
         </div> */}
-        <p className='md:text-[18px] text-[24px] text-center font-light text-[#C2C2C2]'>
+        <p className='md:text-[18px] text-[24px] text-center font-light text-[#fff]'>
         Demlinks Technologies advocates for smart living, security consciousness, and help <br/> individual and company to drive business to peak of success.
         </p>
         <div className="text-center mt-5">
