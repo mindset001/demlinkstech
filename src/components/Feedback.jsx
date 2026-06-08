@@ -3,6 +3,7 @@
 import NextArrow from "../images/next-arrow.svg"
 import FrontArrowBlack from "../images/black-next-arrow.png"
 import "../css/Feedback.css"
+import { WA_SCHEDULE, WA_MESSAGE, openWhatsApp } from "../utils/whatsapp"
 
 const Feedback = ({data}) => {
     return (
@@ -33,8 +34,8 @@ const Feedback = ({data}) => {
                 <h2>Let's make something incredible together</h2>
                 <p className="text-xl font-medium mb-12">Looking for a creative partner? Let's get started.</p>
                 <div className="btns flex justify-between items-center gap-8">
-                    <button className="bg-[#DA6529] text-[#121212] shadow-lg">Leave us a Message <img src={FrontArrowBlack} alt="next-arrow" /></button>
-                    <button className="bg-[#121212] text-white shadow-lg">Schedule a Call <img src={NextArrow} alt="next-arrow" /></button>
+                    <button onClick={() => openWhatsApp(WA_MESSAGE)} className="bg-[#DA6529] text-[#121212] shadow-lg">Leave us a Message <img src={FrontArrowBlack} alt="next-arrow" /></button>
+                    <button onClick={() => openWhatsApp(WA_SCHEDULE)} className="bg-[#121212] text-white shadow-lg">Schedule a Call <img src={NextArrow} alt="next-arrow" /></button>
                 </div>
             </div>
         </section>

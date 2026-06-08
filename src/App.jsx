@@ -1,44 +1,49 @@
+import { Routes, Route } from 'react-router-dom'
 import About from './components/About'
 import Feedback from './components/Feedback'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
 import Works from './components/Works'
-import {Slides} from './data/db.json'
-import {Work} from './data/db.json'
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Slides } from './data/db.json'
+import { Work } from './data/db.json'
+import { Courses } from './data/db.json'
 import './css/App.css'
 import Footer from './components/Footer'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import Home from './components/Home'
 import * as THREE from 'three'
-// eslint-disable-next-line no-unused-vars
-import { OrbitControls } from '@react-three/drei'
+import Careers from './pages/Careers'
 
-function App() {
-
-  return (
-    <div className="App relative">
-      <Navbar/>
-      <Canvas id='webgl' 
+const HomePage = () => (
+  <>
+    <Canvas id='webgl'
       onCreated={(state) => {
         state.gl.setClearColor(new THREE.Color('#121212'))
       }}
-      //  gl={}
-      // scene={}
-      >
-         <Suspense fallback={null}>
-             <Home />
-         </Suspense>
-         {/* <OrbitControls /> */}
-      </Canvas>
-      <div className='md:px-6 lg:px-12'>
-        <About/>
-        <Services/>
-        <Works works={Work}/>
-        <Feedback data={Slides}/>
-      </div>
-      <Footer/>
+    >
+      <Suspense fallback={null}>
+        <Home />
+      </Suspense>
+    </Canvas>
+    <div className='md:px-6 lg:px-12'>
+      <About />
+      <Services />
+      <Works works={Work} />
+      <Feedback data={Slides} />
+    </div>
+    <Footer />
+  </>
+)
+
+function App() {
+  return (
+    <div className="App relative">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/careers" element={<Careers courses={Courses} />} />
+      </Routes>
     </div>
   )
 }

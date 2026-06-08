@@ -16,6 +16,48 @@
             "position": "Chairman at Akeem Olaniyan and Partners"
         }
     ],
+    "Courses": [
+        {
+            "title": "Web Development",
+            "duration": "12 Weeks",
+            "level": "Beginner – Intermediate",
+            "icon": "💻",
+            "description": "Go from zero to building full, deployable websites. You'll learn HTML, CSS, JavaScript, and React — the same tools our own developers use every day on real client projects.",
+            "skills": ["HTML & CSS", "JavaScript", "React", "Responsive Design", "Git & Deployment"]
+        },
+        {
+            "title": "UI/UX Design",
+            "duration": "8 Weeks",
+            "level": "Beginner – Intermediate",
+            "icon": "🎨",
+            "description": "Learn how to design digital products people actually enjoy using. From user research and wireframes to polished Figma prototypes, you'll build a portfolio that speaks for itself.",
+            "skills": ["Figma", "Wireframing", "Prototyping", "Design Systems", "User Research"]
+        },
+        {
+            "title": "Graphics Design",
+            "duration": "8 Weeks",
+            "level": "Beginner – Intermediate",
+            "icon": "✏️",
+            "description": "Master the art of visual communication. You'll work with industry-standard tools to create brand identities, social media assets, print materials, and motion graphics.",
+            "skills": ["Adobe Illustrator", "Photoshop", "Brand Identity", "Typography", "Motion Graphics"]
+        },
+        {
+            "title": "Digital Marketing",
+            "duration": "6 Weeks",
+            "level": "Beginner",
+            "icon": "📈",
+            "description": "Learn how to grow brands online. This course covers social media strategy, content creation, SEO, paid advertising, and how to read analytics to make smarter decisions.",
+            "skills": ["Social Media Strategy", "SEO", "Content Marketing", "Paid Ads", "Analytics"]
+        },
+        {
+            "title": "Artificial Intelligence",
+            "duration": "10 Weeks",
+            "level": "Intermediate",
+            "icon": "🤖",
+            "description": "Understand how AI works and how to use it practically. From prompt engineering and AI-powered tools to machine learning fundamentals, this course prepares you for the future of work.",
+            "skills": ["Prompt Engineering", "AI Tools", "Machine Learning Basics", "AI Workflows", "Automation"]
+        }
+    ],
     "Work":[
         {
             "title": "Mobile",

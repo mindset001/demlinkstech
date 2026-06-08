@@ -4,6 +4,7 @@ import BoxParticle from './three/BoxParticle'
 import { Html } from '@react-three/drei'
 import Button from './utils/Button'
 import { useFrame } from '@react-three/fiber'
+import { WA_SCHEDULE, openWhatsApp } from '../utils/whatsapp'
 
 const Home = () => {
 
@@ -36,7 +37,7 @@ const Home = () => {
             <br className="hidden md:block" />individuals and companies drive their business to the peak of success.
           </p>
           <div className="text-center mt-5">
-            <Button text="Schedule a call" size={'large'} handleClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}/>
+            <Button text="Schedule a call" size={'large'} handleClick={() => openWhatsApp(WA_SCHEDULE)}/>
           </div>
         </div>
       </Html>
