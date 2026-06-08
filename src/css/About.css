@@ -3,7 +3,12 @@
     background: linear-gradient(106.92deg, #F68A44 3.41%, #EC500B 132.99%);
     color: #121212;
     bottom: 0;
-    left: -180px;
     border-radius: 25px;
     padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .sub-div {
+        left: -180px;
+    }
 }

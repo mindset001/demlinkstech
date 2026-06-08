@@ -36,7 +36,7 @@ const Home = () => {
             Demlinks Technologies advocates for smart living, security consciousness, and helps{' '}
             <br className="hidden md:block" />individuals and companies drive their business to the peak of success.
           </p>
-          <div className="text-center mt-5">
+          <div className="text-center mt-5 pointer-events-auto">
             <Button text="Schedule a call" size={'large'} handleClick={() => openWhatsApp(WA_SCHEDULE)}/>
           </div>
         </div>
