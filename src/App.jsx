@@ -19,9 +19,7 @@ function App() {
 
   return (
     <div className="App relative">
-      <div className='md:px-6 lg:px-12 relative'>
       <Navbar/>
-      </div>
       <Canvas id='webgl' 
       onCreated={(state) => {
         state.gl.setClearColor(new THREE.Color('#121212'))

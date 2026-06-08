@@ -8,7 +8,7 @@ import XnO from "../images/xNo.png"
 
 const Services = () => {
     return ( 
-        <div className="pb-[2rem] pt-[8.5rem] mb-[5rem] relative px-4 md:px-0">
+        <div id="services" className="pb-[2rem] pt-[8.5rem] mb-[5rem] relative px-4 md:px-0">
             <img src={XnO} alt="" className="absolute -left-12 top-0" />
             <div className="flex items-center mb-4">
                 <div className="mr-2  rounded-3xl w-12 h-[2px] bg-[#EC500B]"></div>

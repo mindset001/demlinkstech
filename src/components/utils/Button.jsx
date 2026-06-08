@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 import "../../css/Navbar.css"
 const Button = ({
     text,

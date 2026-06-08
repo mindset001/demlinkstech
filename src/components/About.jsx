@@ -8,7 +8,7 @@ import Brush from "../images/brush.png"
 const About = () => {
 
     return ( 
-        <section className=" mt-12">
+        <section id="about" className=" mt-12">
             <div className="flex justify-between items-center">
                 <h2 className="text-[24px] md:text-5xl tracking-wide">We are a friendly and experienced <br /> Product Design Agency</h2>
                 <div className="flex justify-between items-center">
